@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Coffee Calculator</title>
+    <link rel="stylesheet" href="./styles/main.css">
+    <script src="./scripts/main.js" type="module"></script>
+</head>
+<body>
+        <header class="header" data-js-header>
+        <div class="header__body">
+            <div class="header__body-inner container">
+            <a class="header__logo logo" href="/" aria-label="Home" title="Home">
+                <img class="logo__image" src="./icons/logo.png" alt="" width="179" height="50" />
+            </a>
+            <h3>BrewMate</h3>
+
+            <div class="header__overlay" data-js-header-overlay>
+                <nav class="header__menu">
+                <ul class="header__menu-list">
+                    <li class="header__menu-item">
+                    <a class="header__menu-link is-active" href="./index.html">Home</a>
+                    </li>
+                    <li class="header__menu-item">
+                    <a class="header__menu-link is-active" href="./about.html">About</a>
+                    </li>
+                    <li class="header__menu-item">
+                    <a class="header__menu-link is-active" href="./calculator.html">Calc</a>
+                    </li>
+                    <li class="header__menu-item">
+                    <a class="header__menu-link is-active" href="./tips.html">Tips</a>
+                    </li>
+                </ul>
+                </nav>
+            </div>
+
+            <button
+                class="header__burger-button burger-button visible-mobile"
+                type="button"
+                aria-label="Toggle menu"
+                title="Toggle menu"
+                data-js-header-burger-button
+            >
+                <span class="burger-button__line"></span>
+                <span class="burger-button__line"></span>
+                <span class="burger-button__line"></span>
+            </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero__main container">
+                <div class="hero__body">
+                    <h1 class="hero__title" id="hero-title">
+                        BrewMate Coffee Calculator
+                    </h1>
+                    <p class="hero__subtitle">
+                        Calculate the perfect coffee within 10 seconds!
+                    </p>
+                    <div class="hero__actions">
+                        <a 
+                        class="hero__button-primary button"
+                        href="./calculator.html"
+                        aria-label="Start Calculating"
+                        title="Start Calculating"
+                        >
+                            START
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+</body>
+</html>

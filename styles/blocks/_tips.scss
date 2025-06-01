@@ -1,0 +1,42 @@
+@use "../helpers" as *;
+
+.tips {
+  padding-block: rem(48);
+
+  &__title {
+    font-size: rem(32);
+    font-weight: 700;
+    margin-bottom: rem(24);
+    text-align: center;
+  }
+
+  &__grid {
+    display: grid;
+    gap: rem(24);
+    grid-template-columns: repeat(auto-fit, minmax(rem(280), 1fr));
+  }
+}
+
+.tip-card {
+  background-color: var(--color-light);
+  border: var(--border);
+  box-shadow: var(--shadow);
+  padding: rem(24);
+  border-radius: rem(12);
+  transition: transform 0.2s ease;
+
+  &:hover {
+    transform: translateY(rem(-4));
+  }
+
+  &__title {
+    font-size: rem(20);
+    font-weight: 600;
+    margin-bottom: rem(12);
+  }
+
+  &__text {
+    font-size: rem(16);
+    color: var(--color-gray-60);
+  }
+}

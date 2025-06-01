@@ -1,0 +1,15 @@
+{
+  "name": "coffee-calc",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-watch": "sass --watch ."
+  },
+  "author":" Yernar Zhaksylyk",
+  "license": "ISC",
+  "description": "A simple coffee calculator app",
+  "devDependencies": {
+    "sass": "^1.89.0"
+  }
+}

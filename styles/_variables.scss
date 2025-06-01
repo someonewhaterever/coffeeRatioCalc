@@ -1,0 +1,33 @@
+@use 'helpers' as *;
+
+:root {
+    // Colors
+    --color-primary: #F7F1EB;
+    --color-secondary: #F3E9DC;
+    --color-accent: #C6A48B;
+
+    --color-text-primary: #4B3F3F;
+    --color-text-title: #5C4033;
+    --color-hover: #B98E75;
+    
+    --color-success: #DDE9D0;
+    --color-error: #F7D6D0;
+
+    
+    --border: #{rem(1)} solid var(--color-secondary);
+    --shadow: 0 0 0 #{rem(3)} #f0e0ab;
+
+    --font-family: 'Open Sans', sans-serif;
+
+    --container-width: #{rem(1600)};
+    --container-padding-x: #{rem(16)};
+
+    --transition-duration: 0.2s;
+
+    --100vw: calc(100vw - var(--scrollbar-width));
+
+    @include laptop {
+    --container-width: #{rem(1280)};
+    }
+
+}

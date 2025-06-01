@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BrewMate | Tips</title>
+  <link rel="stylesheet" href="./styles/main.css" />
+  <script src="./scripts/main.js" type="module" defer></script>
+</head>
+<body>
+         <header class="header" data-js-header>
+        <div class="header__body">
+            <div class="header__body-inner container">
+            <a class="header__logo logo" href="/" aria-label="Home" title="Home">
+                <img class="logo__image" src="./icons/logo.png" alt="" width="179" height="50" />
+            </a>
+            <h3>BrewMate</h3>
+
+            <div class="header__overlay" data-js-header-overlay>
+                <nav class="header__menu">
+                <ul class="header__menu-list">
+                    <li class="header__menu-item">
+                    <a class="header__menu-link is-active" href="./index.html">Home</a>
+                    </li>
+                    <li class="header__menu-item">
+                    <a class="header__menu-link is-active" href="./about.html">About</a>
+                    </li>
+                    <li class="header__menu-item">
+                    <a class="header__menu-link is-active" href="./calculator.html">Calc</a>
+                    </li>
+                    <li class="header__menu-item">
+                    <a class="header__menu-link is-active" href="./tips.html">Tips</a>
+                    </li>
+                </ul>
+                </nav>
+            </div>
+
+            <button
+                class="header__burger-button burger-button visible-mobile"
+                type="button"
+                aria-label="Toggle menu"
+                title="Toggle menu"
+                data-js-header-burger-button
+            >
+                <span class="burger-button__line"></span>
+                <span class="burger-button__line"></span>
+                <span class="burger-button__line"></span>
+            </button>
+            </div>
+        </div>
+    </header>
+
+
+  <main class="main">
+    <section class="tips">
+      <div class="container">
+        <h1 class="tips__title">Coffee Tips</h1>
+        <div class="tips__grid">
+          <!-- Карточка совета 1 -->
+          <article class="tip-card">
+            <h2 class="tip-card__title">Use Fresh Beans</h2>
+            <p class="tip-card__text">Freshly roasted beans make a huge difference. Always check the roast date on the bag.</p>
+          </article>
+
+          <!-- Карточка совета 2 -->
+          <article class="tip-card">
+            <h2 class="tip-card__title">Grind Just Before Brewing</h2>
+            <p class="tip-card__text">Grinding beans right before brewing keeps the flavors locked in and vibrant.</p>
+          </article>
+
+          <!-- Карточка совета 3 -->
+          <article class="tip-card">
+            <h2 class="tip-card__title">Control Your Water Temp</h2>
+            <p class="tip-card__text">Ideal temperature is 90–96°C. Too hot burns coffee, too cold under-extracts.</p>
+          </article>
+
+          <!-- Карточка совета 4 -->
+          <article class="tip-card">
+            <h2 class="tip-card__title">Use Filtered Water</h2>
+            <p class="tip-card__text">Tap water with too many minerals can ruin the taste. Use clean, filtered water.</p>
+          </article>
+
+          <!-- Карточка совета 5 -->
+          <article class="tip-card">
+            <h2 class="tip-card__title">Keep Your Gear Clean</h2>
+            <p class="tip-card__text">Regularly clean your coffee maker and grinder to avoid bitter buildup.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__text">© 2025 BrewMate. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
