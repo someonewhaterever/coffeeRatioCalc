@@ -1,9 +1,6 @@
 # ☕ BrewMate – Coffee Calculator
 
 A simple and beautiful coffee calculator for perfect brewing. Built with love and vanilla JavaScript.
-
-![screenshot](.)
-
 ---
 
 ## 📦 Tech Stack
@@ -25,4 +22,14 @@ A simple and beautiful coffee calculator for perfect brewing. Built with love an
 - 💡 Beginner-friendly codebase
 
 ---
+## 📦 How to run locally
 
+1. Clone the repository  
+2. Open with LiveServer in your browser  
+3. Done ✅
+
+---
+
+## 🙋‍♂️ Author
+
+Made with love by Yernar 🧠💻  
